@@ -34,7 +34,7 @@ import org.apache.commons.math3.linear.ArrayRealVector;
 import org.apache.commons.math3.linear.RealMatrix;
 import org.apache.commons.math3.linear.RealVector;
 
-import demos.Computations;
+import models.prism.Computations;
 
 /**
  * Default implementation of a {@link ProcessModel} for the use with a
