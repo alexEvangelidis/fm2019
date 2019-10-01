@@ -1,10 +1,34 @@
 # FM'2019
-This repository contains the code to reproduce the results of the
-FM paper.
 
-The code shown here is a smaller version (ver. 1.0) of the original VerFilter code.
+This repository contains the code to reproduce the results of the paper:
 
-## To run the experiments:
+* Alexandros Evangelidis and David Parker. [Quantitative Verification of Numerical Stability for Kalman Filters](http://www.prismmodelchecker.org/bibitem.php?key=EP19). In Proc. 23rd International Symposium on Formal Methods (FM'19), volume 11800 of LNCS, pages 425-441, Springer, 2019.
+
+The code provided here is a trimmed down version (ver. 1.0) of the original VerFilter code.
+
+## To install:
+
+To compile and build from source, you need to: (i) download and build version 4.4 of PRISM; (ii) download and build the code in this repo, attaching it to PRISM. Instructions (assuming command-line on Linux, Mac, Cygwin) are:
+
+First, get and build PRISM:
+
+* ``git clone https://github.com/prismmodelchecker/prism prism``
+* ``cd prism/prism``
+* ``git checkout v4.4``
+* ``make``
+
+Then, download/compile the code:
+
+* ``cd ../..``
+* ``git clone https://github.com/alexEvangelidis/fm2019``
+* ``cd fm2019``
+* ``javac -cp '../prism/prism/lib/*:lib/*:.' verif/*.java filter/*.java``
+
+And, finally, run it, using the provided script:
+
+* ``./run``
+
+## To run the full set of experiments from the paper:
 
 - For Fig. 1.a.:
 
