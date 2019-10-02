@@ -156,8 +156,8 @@ public class DTMCFilterGenerator {
 
 			// export the model to a dot file (which triggers its construction)
 			prism.exportTransToFile(true, Prism.EXPORT_DOT_STATES, new File("dtmc.dot"));
-			prism.exportStatesToFile(0, new File("states.txt"));
-			prism.exportStateRewardsToFile(0, new File("staterewards.txt"));
+			prism.exportStatesToFile(Prism.EXPORT_PLAIN, new File("states.txt"));
+			prism.exportStateRewardsToFile(Prism.EXPORT_PLAIN, new File("staterewards.txt"));
 			String[] props = new String[] { "R{\"cond\"}=? [I=3]", "P=?[G \"isPD\"]" };
 
 			for (String prop : props) {

@@ -8,13 +8,13 @@ The code provided here is a trimmed down version (ver. 1.0) of the original VerF
 
 ## To install:
 
-To compile and build from source, you need to: (i) download and build version 4.4 of PRISM; (ii) download and build the code in this repo, attaching it to PRISM. Instructions (assuming command-line on Linux, Mac, Cygwin) are:
+To compile and build from source, you need to: (i) download and build version 4.5 of PRISM; (ii) download and build the code in this repo, attaching it to PRISM. Instructions (assuming command-line on Linux, Mac, Cygwin) are:
 
 First, get and build PRISM:
 
 * ``git clone https://github.com/prismmodelchecker/prism prism``
 * ``cd prism/prism``
-* ``git checkout v4.4``
+* ``git checkout v4.5``
 * ``make``
 
 Then, download/compile the code:
@@ -22,7 +22,7 @@ Then, download/compile the code:
 * ``cd ../..``
 * ``git clone https://github.com/alexEvangelidis/fm2019``
 * ``cd fm2019``
-* ``javac -cp '../prism/prism/lib/*:lib/*:.' verif/*.java filter/*.java``
+* ``javac -cp '../prism/prism/classes:../prism/prism/lib/*:lib/*:.' verif/*.java filter/*.java```
 
 And, finally, run it, using the provided script:
 
