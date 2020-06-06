@@ -107,7 +107,7 @@ If you find this code useful in your research, please consider citing one of the
 	booktitle="Formal Methods -- The Next 30 Years",
 	year="2019",
 	publisher="Springer International Publishing",
-address="Cham",
-pages="425--441",
-isbn="978-3-030-30942-8"
-}
+	address="Cham",
+	pages="425--441",
+	isbn="978-3-030-30942-8"
+	}
