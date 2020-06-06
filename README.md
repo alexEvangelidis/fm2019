@@ -93,3 +93,21 @@ And, finally, run it, using the provided script:
       R{"cond"}=? [I=2]: 69.87499999999999, P=?[G "isPD"]: 1.0
 	
       R{"cond"}=? [I=3]: 2.479506427024868,  P=?[G "isPD"]: 1.0
+
+## Citation
+If you find this code useful in your research, please consider citing one of the papers:
+
+	@InProceedings{EP19,
+	author="Evangelidis, Alexandros
+	and Parker, David",
+	editor="ter Beek, Maurice H.
+	and McIver, Annabelle
+	and Oliveira, Jos{\'e} N.",
+	title="Quantitative Verification of Numerical Stability for Kalman Filters",
+	booktitle="Formal Methods -- The Next 30 Years",
+	year="2019",
+	publisher="Springer International Publishing",
+address="Cham",
+pages="425--441",
+isbn="978-3-030-30942-8"
+}
