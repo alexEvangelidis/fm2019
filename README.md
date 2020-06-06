@@ -95,7 +95,7 @@ And, finally, run it, using the provided script:
       R{"cond"}=? [I=3]: 2.479506427024868,  P=?[G "isPD"]: 1.0
 
 ## Citation
-If you find this code useful in your research, please consider citing one of the papers:
+If you find this code useful in your research, please consider citing:
 
 	@InProceedings{EP19,
 	author="Evangelidis, Alexandros
